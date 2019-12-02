@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="cadastro">
+        <div class="cx_cadastro">
+            <img src="./images/cadastro_totoro.png" alt="" class="img">
+            <p>Cadastro</p>
+        </div>
+        <div class="input_cadastro">
+            <form>
+                <input placeholder="Nome Completo" type="text" id="nome" required value="">
+                <input placeholder="Email" type="email" id="email" required value=""
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <input placeholder="Confirmar Email" type="email" id="email2" required value=""
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <input placeholder="Senha" type="password" id="senha" required value="">
+                <input placeholder="Confirmar Senha" type="password" id="senha2" required value="">
+                <button value="Submit" type="submit" onclick="cadastrar()">Cadastrar</button>
+                <a href="">Ja tem cadastro? Faça login aqui</a>
+            </form>
+
+
+        </div>
+    </div>
+
+    <div class="cadastro">
+
+        <div class="cx_cadastro">
+            <img src="./images/cadastro_totoro.png" alt="" class="img">
+            <p>Login</p>
+        </div>
+
+        <div class="input_cadastro">
+
+            <div class="cx">
+                <input placeholder="Email" type="email" id="email">
+
+                <input placeholder="Senha" type="password" id="senha">
+
+                <button onclick="logar()">Logar</button>
+                <a href="">Não tem cadastro? Cadastre-se aqui</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

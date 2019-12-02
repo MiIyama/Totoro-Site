@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background-color:#211E6A;
+    font-family: 'Roboto', sans-serif;
+    height: 200vh; 
+    width: 98.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* position: relative;
+    top: 0;
+    left: 0 */
+    
+}
+
+.cadastro {
+    height: 77vh;
+    width: 47vw;
+    background-color: #020243;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+}
+
+.cx_cadastro{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cx_cadastro p{
+    font-size: 38pt;
+    color: white;
+    margin-top: 10px;
+}
+
+.img{
+    width: 100%;
+    
+}
+
+.input_cadastro {
+    width: 50%;
+    height: auto;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.input_cadastro input {
+    width: 71%;
+    height: 5.9%;
+    background: #C4C4C4;
+    border-radius: 26px;
+    border: 0;
+}
+
+.input_cadastro button {
+    width: 39%;
+    height: 6%;
+    background: #020243;
+    border-radius: 26px;
+    color: white;
+    border: 0;
+    font-size: 15px;
+  
+}
+
+
+.input_cadastro a{
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.cx {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cx button {
+    width: 39%;
+    height: 13%;
+    background: #020243;
+    border-radius: 26px;
+    color: white;
+    border: 0;
+    font-size: 15px;
+}
+
+.cx input {
+    width: 71%;
+    height: 11.9%;
+    background: #C4C4C4;
+    border-radius: 26px;
+    border: 0;
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+    
+}
